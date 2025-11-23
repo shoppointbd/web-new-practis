@@ -1,0 +1,73 @@
+.main-form{
+    height: 700px;
+    width: 500px;
+    background-color:teal;
+    margin: 70px auto;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+     transition: all linear .3s;
+     border-radius: 10px;
+     background: linear-gradient(teal, rgb(128, 145, 2));
+    
+}
+.main-form:hover{
+    box-shadow: 10px 10px rgb(0, 0, 0);
+}
+
+.main-form form label{
+ color: white;
+    font-size: 30px;
+   
+   
+}
+.main-form form label ::placeholder{
+    font-size: 20px;
+   
+}
+
+.main-form form input{
+    
+     background: transparent;
+      border: none;
+    outline: none;
+     
+}
+.main-form form input{
+ color: lightgray;
+ border: 2px solid white;
+ padding: 10px 60px 10px 10px;
+ border-radius: 20px;
+ transition: all linear .3s;
+ }
+ .main-form form button{
+    font-size: 20px;
+    margin-left: 20px;
+    padding:  10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    border: none;
+    transition: all linear 0.3s;
+
+ }
+ .main-form form button:hover{
+background-color: brown;
+transform: scale(1.1);
+
+ }
+ .main-form form button:focus{
+background-color: rgb(11, 173, 41);
+transform: scale(1.1);
+
+ }
+ .main-form form input:hover{
+    background-color: rgb(58, 185, 156);
+    transform: scale(1.1);
+ }
+.main-form form input:focus{
+    background-color: rgb(111, 62, 7);
+    transform: scale(1.1);
+ }
+ .main-form form samp{
+    color: rgb(255, 0, 0);
+ }

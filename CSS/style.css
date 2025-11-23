@@ -1,0 +1,468 @@
+
+
+a{
+    text-decoration: none;
+
+}
+/* navbar1 part css :start */
+
+.custom-search-btn0{
+    height: 20px;
+    width: 400px;
+}
+.custom-search-btn{
+  background-color: #C53653; 
+  color: #ffffff;           
+  border-color: #0d6e6e;     
+  font-weight: 500;        
+
+
+
+.custom-search-btn:hover {
+  background-color: #0a5a5a; 
+  color: #ffffff;
+  border-color: #0a5a5a;
+}
+}
+.custom-search-btn1{
+  background-color: #C53653; 
+  color: #ffffff;           
+  border-color: #006464;     
+  font-weight: 500;        
+
+
+.custom-search-btn:hover {
+  background-color: #fc0edc; 
+  color: #ffffff;
+  border-color: #db6c05;
+}
+}
+.custom-search-btn0{
+    height: 20px;
+    width: 400px;
+}
+
+
+/* navbar1 part css :end */
+
+
+/* navbar2 part css :start */
+.navbar {
+    background-color: rgb(255, 255, 255);
+    padding:0;
+
+}
+
+.custom-bg-color{
+    background-color: #c536531c;
+}
+
+.container{
+    justify-content: end;
+}
+
+.Brown-1{
+    background-color: Bronze;
+    
+}
+.Brown-1 li a{
+   color: rgb(0, 0, 0);
+    
+}
+.Brown-1 li a:hover{
+    background-color:#C53653 ;
+    color: white;
+}
+.menu-custom ul li a h5{
+    transition: all linear 0.3s;
+}
+.menu-custom ul li a h5:hover{
+color:#C53653 ;
+transform: scale(1.1);
+}
+
+
+/* navbar2 part css :end */
+
+
+/* <!-- topselling & Banner Product Part css start --> */
+
+.top-selling-custom a{
+    color: rgb(0, 0, 0);
+    transition: all linear 0.3s;
+}
+.top-selling-custom a img{
+
+    transition: all linear 0.3s;
+}
+.top-selling-custom a:hover{
+ transform: scale(1.1);
+    color: #C53653;
+    font-size: 20px;
+}
+.top-selling-custom a img:hover{
+ transform: scale(1.1);
+    color: #C53653;
+    height: 30px;
+    width: 40px;
+}
+.top-selling-products-wrapper img{
+    height: 20px;
+    width: 30px;
+}
+
+#carouselExample .carousel-item img {
+    width: 600px;          
+    max-height: 400px;     
+    object-fit: cover;     
+}
+
+.carousel-indicators [data-bs-target] {
+    width: 10px;
+    height: 10px;
+   background-color: #C53653;
+   border-radius: 50%;
+   background-color: transparent;
+   border: 2px solid teal;
+}
+
+
+
+.carousel-indicators .active {
+    background-color: #ffffff;
+}
+.carousel-indicators .active:hover {
+    background-color: #ffffff;
+    height: 20px;
+    width: 20px;
+}
+
+.top-selling-products-wrapper h3 {
+  /* আন্ডারলাইনটি তৈরি করে */
+  border-bottom: 2px solid #C53653; 
+  padding-bottom: 8px; 
+  margin-bottom: 15px; 
+}
+
+
+
+.colorss{
+    background-color: #C53653;
+}
+
+/* <!-- topselling & Banner Product Part css end --> */
+
+
+/* <!-- marquee part css start --> */
+.modern-marquee{
+    height: 30px;
+    width: 100%;
+    background-color: #C53653;
+    color: rgb(255, 255, 255);
+    padding: 10px 0;
+    overflow: hidden;
+    box-sizing: border-box;
+    display: flex;
+  
+}
+.modern-marquee p{
+    font-size: 15px;
+    white-space: nowrap;
+    display: inline-block;
+    line-height: 12px;
+    padding-left: 100%;
+    animation: marquee-scroll 40s linear infinite;
+    align-items: center;
+
+}
+.modern-marquee:hover p {
+  animation-play-state: paused;
+}
+@keyframes marquee-scroll {
+  0% {
+    transform: translateX(0); /* প্রাথমিক অবস্থান */
+  }
+  100% {
+    transform: translateX(-100%); /* পুরো টেক্সটকে বাম দিকে সরাবে */
+  }
+}
+
+/* <!-- marquee part css end --> */
+
+
+
+
+
+
+/* <!-- B Catagory part css start --> */
+.product-part h2{
+    padding: 10px 0;
+
+  /* আন্ডারলাইনটি তৈরি করে */
+  border-bottom: 2px solid #C53653; 
+  padding-bottom: 8px; 
+  margin-bottom: 15px; 
+
+
+
+}
+.custom-hover h3 a{
+  transition: all linear 0.3s;
+}
+
+.custom-hover h3 a:hover{
+ transform: scaleX(1.1);
+ color: teal;
+ font-size: 30px;
+}
+
+/* <!-- B Catagory part css end --> */
+
+
+/* product Part css :start */
+
+.product-title-custom a{
+transition: all linear 0.3s;
+}
+.product-title-custom a:hover{
+
+  color: #C53653;
+  font-size: 25px;
+}
+
+.btn-outline-custom-teal{
+  background-color: #a00524;
+  border-radius: 20px;
+  color: white;
+  transition: all linear 0.3s;
+}
+.btn-outline-custom-teal:hover{
+  background-color: #084100;
+  border-radius: 25px;
+  color: white;
+ transform: scaleX(1.1);
+ padding: 10px;
+}
+.btn-custom-teal{
+  background-color: #056fa0;
+  border-radius: 20px;
+  color: white;
+  transition: all linear 0.3s;
+}
+.btn-custom-teal:hover{
+  background-color: teal;
+  border-radius: 25px;
+  color: white;
+ transform: scaleX(1.1);
+ padding: 10px;
+}
+
+
+
+/* product Part css :end */
+
+/* footer Banner part css :start */
+
+
+.footer-custom img{
+  height: 300px;
+}
+/* footer Banner part css :end */
+
+
+/* footer part css :start */
+
+
+.bg-custom-dark {
+    
+    background-color: #212529; 
+}
+
+.footer-heading {
+    font-size: 1rem;         /* ফন্ট সাইজ */
+    font-weight: 600;      /* লেখা মোটা করা */
+    text-transform: uppercase; /* সব অক্ষর বড় হাতের */
+    letter-spacing: 1px;   /* অক্ষরের মধ্যে ফাঁকা */
+    margin-bottom: 20px;
+    color: #ffffff;        /* সাদা রঙ */
+}
+
+/* ৩. ফুটারের লিঙ্কগুলোর স্টাইল */
+.footer-links li {
+    margin-bottom: 10px; /* প্রতিটি লিঙ্কের নিচে গ্যাপ */
+}
+
+.footer-links a {
+    text-decoration: none;  /* আন্ডারলাইন সরায় */
+    color: #adb5bd;        /* হালকা সাদা (text-white-50 এর মতো) */
+    transition: color 0.3s ease; /* হোভার ইফেক্টের জন্য */
+}
+
+/* ৪. লিঙ্ক হোভার করলে (মাউস নিলে) কালার পরিবর্তন */
+.footer-links a:hover {
+    color: #ffffff;      /* পুরোপুরি সাদা হবে */
+    text-decoration: underline; /* আন্ডারলাইন দেখাবে */
+}
+
+/* ৫. কন্টাক্ট ইনফোর Address ট্যাগ */
+address {
+    font-style: normal; /* লেখাকে সোজা রাখে (বাঁকা নয়) */
+    line-height: 1.6;   /* লাইনগুলোর মধ্যে গ্যাপ */
+}
+
+/* ৬. সোশ্যাল মিডিয়া আইকন */
+.social-icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;           /* আইকন বক্সের প্রস্থ */
+    height: 40px;          /* আইকন বক্সের উচ্চতা */
+    border-radius: 50%;    /* আইকন বক্স গোল করবে */
+    background-color: #343a40; /* আইকনের ব্যাকগ্রাউন্ড */
+    color: #ffffff;        /* আইকনের রঙ সাদা */
+    margin-right: 10px;    /* আইকনগুলোর মধ্যে গ্যাপ */
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+/* ৭. সোশ্যাল আইকন হোভার করলে */
+.social-icon:hover {
+    background-color: #0d6e6e; /* আপনার সাইটের টিল (Teal) কালার */
+    color: #ffffff;
+}
+
+/* ৮. সবার নিচের কপিরাইট বার */
+.footer-bottom {
+    background-color: #000000; /* কপিরাইট বারকে কালো করবে */
+    border-top: 1px solid #343a40; /* ফুটার থেকে আলাদা করার জন্য একটি হালকা বর্ডার */
+}
+
+.footer-bottom a {
+    color: #ffffff;
+    text-decoration: none;
+}
+.footer-bottom a:hover {
+    text-decoration: underline;
+}
+
+/* ===== ফুটার স্টাইল শেষ ===== */
+
+/* footer part css :end */
+
+
+/* contuct part css :start */
+
+.contact-header {
+  
+    background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(../Image/02.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 6rem 0;
+    color: white; 
+}
+
+.registration-custom{
+  padding: 5px;
+  text-align: center;
+  width: 200px;
+  background-color: #C53653;
+ border-radius: 10px;
+ 
+}
+.registration-custom:hover{
+  background-color: teal;
+}
+.registration-custom h2 a{
+  color: white;
+  transition: all linear 0.3s;
+
+}
+.registration-custom h2 a:hover{
+  font-size: 35px;
+  transform: scaleX(1.1);
+}
+.contact-header h1 {
+    font-size: 3.5rem;
+    font-weight: 600;
+}
+
+.help-links li {
+    margin-bottom: 0.75rem;
+}
+.help-links a {
+    text-decoration: none;
+    color: #555; 
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+.help-links a:hover {
+    color: #000; 
+}
+
+.contact-form .form-control {
+    border: none;
+    border-radius: 0;
+    border-bottom: 1px solid #ccc;
+    background-color: transparent;
+    padding-left: 0; 
+}
+
+
+.contact-form .form-control:focus {
+    background-color: transparent;
+    border-color: #000; 
+    box-shadow: none;   
+}
+
+.contact-form .form-floating > .form-control:focus ~ label,
+.contact-form .form-floating > .form-control:not(:placeholder-shown) ~ label {
+    transform: scale(0.85) translateY(-1rem) translateX(0.15rem);
+    padding-left: 0;
+}
+.contact-form .form-floating > label {
+    padding-left: 0; 
+    color: #777;
+}
+
+.btn-submit {
+    background-color: #C53653; 
+    color: white;
+    margin-left: 250px;
+    margin-bottom: 20px;
+    padding: 12px 30px;
+    border-radius: 10px;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+    transition:all linear 0.3s;
+
+}
+.btn-submit:hover {
+    background-color:teal;
+    color: white;
+    font-size: 25px;
+    transform: scaleX(1.1);
+}
+.btn-submit:focus {
+    background-color:green;
+    color: white;
+    transform: scaleX(1.1);
+}
+
+.support-info {
+    font-size: 0.9rem;
+}
+.view-faq-link {
+    color: #000;
+    font-weight: 600;
+    text-decoration: none;
+    border-bottom: 2px solid #000;
+    padding-bottom: 2px;
+}
+
+.damage-product{
+font-weight: bold;
+}
+
+
+/* footer part css :end */
